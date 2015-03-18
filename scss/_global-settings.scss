@@ -5,15 +5,13 @@
 //$asset-path: '//assets.ubuntu.com/sites/ubuntu/latest/u/';
 
 /// the theme's core brand colour
-$brand-color:           $canonical-aubergine !default;
-/// canonical aubergine
-$canonical-aubergine:   #772953 !default;
+$brand-color:           #772953;
 /// light aubergine (consumer)
-$light-aubergine:       #77216f !default;
+$light-aubergine:       #77216f;
 /// mid aubergine (both)
-$mid-aubergine:         #5e2750 !default;
+$mid-aubergine:         #5e2750;
 /// dark aubergine (enterprise)
-$dark-aubergine:        #2c001e !default;
+$dark-aubergine:        #2c001e;
 
 /// text colour
 //$text-color:            $cool-grey !default;

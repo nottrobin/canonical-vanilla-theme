@@ -1,4 +1,5 @@
 // import required files
 
-@import '../node_modules/vanilla-framework/';
-@include ../node_modules/vanilla-framework/styles.scss;
+@import 'global-settings';
+
+@import '../node_modules/vanilla-framework/scss/styles';
