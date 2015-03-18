@@ -1,0 +1,44 @@
+/// standard colors
+
+/// assets database path
+/// usage: background: url(#{$asset-path}img//backgrounds/background.jpg) no-repeat 0 0;
+//$asset-path: '//assets.ubuntu.com/sites/ubuntu/latest/u/';
+
+/// the theme's core brand colour
+$brand-color:           $canonical-aubergine !default;
+/// canonical aubergine
+$canonical-aubergine:   #772953 !default;
+/// light aubergine (consumer)
+$light-aubergine:       #77216f !default;
+/// mid aubergine (both)
+$mid-aubergine:         #5e2750 !default;
+/// dark aubergine (enterprise)
+$dark-aubergine:        #2c001e !default;
+
+/// text colour
+//$text-color:            $cool-grey !default;
+/// row background
+//$row-background:        #4b1827 !default;
+
+/// box shadows
+//$box-shadow:            #c2c2c2 !default;
+/// code background
+//$code-bg:               #fffbeb !default;
+/// table header background
+//$table-th:              #fee3d2 !default;
+
+/// box borders
+//$box-border:            #dfdcd9 !default;
+
+/// This is the global link color, mainly used for links in content
+//$link-color:            $brand-color !default;
+
+// Site maximum width
+//$site-max-width: 1030px !default;
+
+/// Medium breakpoint
+//$breakpoint-medium: 768px !default;
+
+/// Large breakpoint
+//$breakpoint-large: 984px !default;
+
