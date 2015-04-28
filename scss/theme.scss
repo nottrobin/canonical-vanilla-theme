@@ -1,6 +1,10 @@
-// import required files
 
+// Theme variables
 @import 'global-settings';
 
+// import required files
 @import '../node_modules/vanilla-framework/scss/vanilla';
-@include vanilla;
+
+@mixin canonical-vanilla-theme {
+  @include vanilla;
+}
