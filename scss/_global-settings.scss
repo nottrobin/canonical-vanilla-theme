@@ -5,10 +5,26 @@
 //$asset-path: '//assets.ubuntu.com/sites/ubuntu/latest/u/';
 
 /// the theme's core brand colour
-$brand-color:           #772953;
+$brand-color: #772953;
+
 /// light aubergine (consumer)
-$light-aubergine:       #77216f;
+$light-aubergine: #77216f;
+
 /// mid aubergine (both)
-$mid-aubergine:         #5e2750;
+$mid-aubergine: #5e2750;
+
 /// dark aubergine (enterprise)
-$dark-aubergine:        #2c001e;
+$dark-aubergine: #2c001e;
+
+/// secondary color (ubuntu orange)
+$secondary-color: #dd4814;
+
+
+/// light link
+$light-link: #fff;
+
+/// This is the global link color, mainly used for links in content
+$link-color: $secondary-color;
+
+/// Site maximum width
+$site-max-width: 984px;
