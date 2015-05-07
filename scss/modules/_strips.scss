@@ -15,11 +15,11 @@
     ///background-image: url('../img/backgrounds/background-grid.png');
     background-repeat: repeat;
     color: $light-link;
-  }
 
-  .strip-dark.solid {
-    background-image: none;
-    background-color: $dark-aubergine;
+    &.solid {
+      background-image: none;
+      background-color: $dark-aubergine;
+    }
   }
 
   .strip-light {
