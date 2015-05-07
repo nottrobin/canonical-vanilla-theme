@@ -1,0 +1,28 @@
+////
+/// @author       Web Team at Canonical Ltd
+////
+
+/// strip class styles
+/// @group 
+@mixin canonical-strips {
+  .strip-dark,
+  .strip-light {
+    clear: both;
+  }
+
+  .strip-dark {
+    background-color: $dark-aubergine;
+    ///background-image: url('../img/backgrounds/background-grid.png');
+    background-repeat: repeat;
+    color: $light-link;
+
+    &.solid {
+      background-image: none;
+      background-color: $dark-aubergine;
+    }
+  }
+
+  .strip-light {
+    background-color: rgba(255, 255, 255, .6);
+  }
+}
